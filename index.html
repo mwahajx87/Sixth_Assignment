@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NASA CLONE</title>
+<link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <div class="explore-btn">Explore</div>
+            <input type="text" class="search-bar" placeholder="Search">
+        </div>
+        
+        <div class="nasa-logo">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/NASA_logo.svg" alt="NASA Logo">
+        </div>
+
+        <div class="header-right">
+            <a href="#" class="nav-link">News & Events <span class="chevron">⌵</span></a>
+            <a href="#" class="nav-link">Multimedia <span class="chevron">⌵</span></a>
+            <a href="#" class="nav-link">NASA+ <span class="nasa-plus">LIVE</span></a>
+        </div>
+
+        <button class="mobile-menu-toggle" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </header>
+
+    <div class="container">
+        <div class="event-timestamp">
+            LIVE Monday, April 27, 7:15 p.m. EDT ( 2315 UTC)
+        </div>
+        
+        <hr>
+
+        <div class="event-card">
+            <div class="event-image">
+                <img src="https://www.nasa.gov/wp-content/themes/nasa/assets/images/nasa-logo.svg" alt="NASA">
+            </div>
+            
+            <div class="event-title">
+                Roscosmos Progress 95
+            </div>
+
+            <div class="event-description">
+                Live coverage of the rendezvous and docking of the Roscosmos Progress 95 cargo spacecraft to the International Space Station
+            </div>
+
+            <a href="#" class="arrow-button" aria-label="Go to event">→</a>
+        </div>
+    </div>
+
+    <section class="hero-container">
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Humans in Space</h1>
+            <p class="hero-description">
+                NASA astronauts Jessica Watkins and Luke Delaney, CSA (Canadian Space Agency) 
+                astronaut Joshua Kutryk, and Roscosmos cosmonaut Sergey Teteryatnikov are set to 
+                launch no earlier than mid-September as part of NASA's SpaceX Crew-13 mission.
+            </p>
+            <a href="#" class="hero-btn">NASA's SpaceX Crew-13</a>
+        </div>
+
+        <footer class="hero-footer">
+            <div class="footer-grid">
+                <div class="footer-item">
+                    <span class="label">Your Orbiting Laboratory</span>
+                    <a href="#" class="link">Space Station Updates <span class="arrow">→</span></a>
+                </div>
+                <div class="footer-item">
+                    <span class="label">Current Mission</span>
+                    <a href="#" class="link">Expedition 74 <span class="arrow">→</span></a>
+                </div>
+                <div class="footer-item">
+                    <span class="label">Benefits for Humanity</span>
+                    <a href="#" class="link">Space Station Science <span class="arrow">→</span></a>
+                </div>
+            </div>
+
+            <div class="video-controls">
+                <div class="thumb-circle"></div>
+                <button class="pause-btn" aria-label="Pause">||</button>
+            </div>
+        </footer>
+    </section>
+
+    <section class="news-section-wrapper">
+        <div class="news-header-flex">
+            <h2 class="section-main-title">Featured News</h2>
+            <a href="#" class="recently-published-link">Recently Published <span class="red-arrow-icon">→</span></a>
+        </div>
+
+        <div class="news-mosaic-grid">
+            <div class="mosaic-card large-feature" style="background-image: url('./assets/iss-04-27-26.webp');">
+                <div class="card-overlay">
+                    <span class="card-tag">BLOG</span>
+                    <span class="read-time">1 MIN READ</span>
+                    <h3 class="card-title">Progress 95 Cargo Craft Launches to Resupply Station Crew</h3>
+                </div>
+            </div>
+
+            <div class="mosaic-card medium-feature" style="background-image: url('./assets/roman-option-3.webp');">
+                <div class="card-overlay">
+                    <span class="card-tag">IMAGE ARTICLE</span>
+                    <span class="read-time">2 MIN READ</span>
+                    <h3 class="card-title">NASA Targets Early September for Roman Space Telescope Launch</h3>
+                </div>
+            </div>
+
+            <div class="small-feature-stack">
+                <div class="mosaic-card stack-item" style="background-image: url('./assets/FitCheck1.jpg');">
+                    <div class="card-overlay">
+                        <span class="card-tag">BLOG</span>
+                        <span class="read-time">4 MIN READ</span>
+                        <h4 class="card-title-small">NASA's Dragonfly Rotorcraft Gets Decked Out, Tested</h4>
+                    </div>
+                </div>
+                <div class="mosaic-card stack-item" style="background-image: url('./assets/image-2-ivgen-mini-hardware-e1776959913490.webp');">
+                    <div class="card-overlay">
+                        <span class="card-tag">ARTICLE</span>
+                        <span class="read-time">4 MIN READ</span>
+                        <h4 class="card-title-small">Liquid Lifeline: NASA Tech Could Create IV Fluid In Space</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom-news-flex-row">
+            <div class="mini-news-item">
+                <img src="./assets/pace_tour_diatom_still_01.05500.jpg" alt="Earth" class="mini-thumb">
+                <div class="mini-content">
+                    <span class="mini-meta">1 MIN READ</span>
+                    <p class="mini-title">New NASA Views of Earth, From (S)PACE</p>
+                    <span class="mini-tag">ARTICLE</span>
+                </div>
+            </div>
+            <div class="mini-news-item">
+                <img src="./assets/25382-pia24173-1600.webp" alt="Mars" class="mini-thumb">
+                <div class="mini-content">
+                    <span class="mini-meta">5 MIN READ</span>
+                    <p class="mini-title">NASA's Curiosity Finds Organic Molecules Never Seen Before on Mars</p>
+                    <span class="mini-tag">ARTICLE</span>
+                </div>
+            </div>
+            <div class="mini-news-item">
+                <img src="./assets/nhq202604230010-db0b5f.webp" alt="Jordan" class="mini-thumb">
+                <div class="mini-content">
+                    <span class="mini-meta">3 MIN READ</span>
+                    <p class="mini-title">NASA Welcomes Jordan as 63rd Artemis Accords Signatory</p>
+                    <span class="mini-tag">ARTICLE</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="podcast-hero">
+        <div class="podcast-content">
+            <h1 class="podcast-title">Time on Other Worlds</h1>
+            
+            <p class="podcast-description">
+                Time is so ubiquitous to our everyday lives that we often just think of it as 
+                numbers on a clock face. But what happens when we leave Earth? How do we 
+                track time where mornings and evenings don't match a 24-hour cycle? On the 
+                latest episode of "Houston We Have a Podcast," hear how NASA plans to 
+                keep time on other worlds.
+            </p>
+
+            <a href="#" class="podcast-link">
+                Listen <span class="podcast-arrow">→</span>
+            </a>
+        </div>
+    </section>
+
+    <section class="missions-section">
+        <div class="missions-header">
+            <h2 class="missions-main-title">NASA Missions</h2>
+            <a href="#" class="discover-more-btn">
+                Discover More <span class="header-arrow">→</span>
+            </a>
+        </div>
+
+        <div class="missions-grid-container">
+            
+            <div class="mission-card-item" style="background-image: url('./assets/1-mars-nasa-gov-jpg.webp');">
+                <div class="mission-card-overlay">
+                    <h3 class="mission-card-title">Communicating with Missions</h3>
+                    <div class="mission-card-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="mission-card-item" style="background-image: url('./assets/jpegpia24836.height-1024-jpg.webp');">
+                <div class="mission-card-overlay">
+                    <h3 class="mission-card-title">Artemis</h3>
+                    <div class="mission-card-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="mission-card-item" style="background-image: url('./assets/Color-enhanced_view_of_Jezero_crater_on_Mars.jpeg');">
+                <div class="mission-card-overlay">
+                    <h3 class="mission-card-title">Science Missions</h3>
+                    <div class="mission-card-arrow">→</div>
+                </div>
+            </div>
+
+            <div class="mission-card-item" style="background-image: url('./assets/PIA17790_orig.webp');">
+                <div class="mission-card-overlay">
+                    <h3 class="mission-card-title">Spaceships and Rockets</h3>
+                    <div class="mission-card-arrow">→</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="iotd-section">
+        <div class="iotd-container">
+            
+            <div class="iotd-content">
+                <span class="iotd-label">TODAY</span>
+                <h1 class="iotd-main-heading">Image Of The Day</h1>
+                
+                <div class="iotd-article">
+                    <h2 class="iotd-sub-heading">The Day of the Trifid Nebula</h2>
+                    <p class="iotd-description">
+                        NASA celebrates Hubble's 36th anniversary with a new image of the 
+                        Trifid Nebula, a star-forming region it first captured in 1997. 
+                        The telescope leveraged almost its full operational lifetime to 
+                        show us changes in the nebula on human time scales with an 
+                        improved camera.
+                    </p>
+                    <a href="#" class="iotd-link">
+                        Browse Image Archive <span class="red-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="iotd-image-wrapper">
+                <div class="iotd-image-container">
+                    <img src="./assets/55228089453-c0d41d11a7-o.webp" alt="Trifid Nebula">
+                    <button class="download-btn" aria-label="Download image">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                    </button>
+                </div>
+                <div class="view-image-footer">
+                    <a href="#" class="iotd-link-small">
+                        View image <span class="red-arrow-small">→</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <h2 class="gallery-section-title">More NASA Images</h2>
+
+        <div class="gallery-grid">
+            <article class="gallery-card">
+                <div class="image-composite">
+                    <div class="main-img">
+                        <img src="./assets/nhq202604110022orig.webp" alt="Artemis II Crew">
+                    </div>
+                    <div class="side-imgs">
+                        <img src="./assets/55203745588-5deded7c3f-o.webp" alt="Capsule detail top">
+                        <img src="./assets/NHQ202604110025~large.jpg" alt="Capsule detail bottom">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-heading">Artemis II Splashdown and Recovery Gallery</h3>
+                    <p class="card-meta">70 IMAGES</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="image-composite">
+                    <div class="main-img">
+                        <img src="./assets/art002e015231~large.jpg" alt="Lunar Flyby view">
+                    </div>
+                    <div class="side-imgs">
+                        <img src="./assets/art002e016136~large.jpg" alt="Astronaut inside">
+                        <img src="./assets/art002e016198~large.jpg" alt="Astronaut at controls">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-heading">Artemis II Lunar Flyby Gallery</h3>
+                    <p class="card-meta">86 IMAGES</p>
+                </div>
+            </article>
+
+            <article class="gallery-card">
+                <div class="image-composite">
+                    <div class="main-img">
+                        <img src="./assets/55182696113-0c4398702d-o-2.webp" alt="Rocket Launch">
+                    </div>
+                    <div class="side-imgs">
+                        <img src="./assets/55181686977-7e768c5ab5-o.webp" alt="Rocket trail">
+                        <img src="./assets/55183645373-7d4537f635-o.webp" alt="Crowd watching">
+                    </div>
+                </div>
+                <div class="card-content">
+                    <h3 class="card-heading">Artemis II Launch Gallery</h3>
+                    <p class="card-meta">27 IMAGES &nbsp; 1 VIDEOS</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+
+    <main class="feature-container">
+        
+        <!-- Left Column: Text Content -->
+        <article class="content-text-col">
+            <p class="text-subtitle">Freedom 250</p>
+            <h1 class="text-title">NASA Celebrates America’s 250th Birthday</h1>
+            <p class="text-lead-para">Our spirit of adventure and innovation will raise our nation to new heights.</p>
+            <p class="text-body-para">
+                From the earliest days of exploration, to the first steps on the Moon and the missions shaping our future, NASA represents the spirit of discovery that defines our nation. As the United States approaches its semiquincentennial, Freedom 250 highlights how innovation, courage, and scientific leadership have carried America forward — and how NASA continues to expand the frontier for the next generation.
+            </p>
+            <a href="#" class="text-link-button">Learn More <span class="arrow">➔</span></a>
+        </article>
+
+<!-- Right Column: Image and Caption -->
+        <figure class="media-img-col">
+            <div class="img-wrapper">
+                <!-- Replace 'your-image-here.jpg' with the path to your actual image file -->
+                <img src="./assets/nhq202604110022orig.webp" alt="Close-up of NASA X-59 aircraft tail with NASA logo" class="img-main">
+            </div>
+            <figcaption class="text-image-caption">
+                <p>NASA’s X-59 is helping the nation celebrate the 250th anniversary of its independence with an update to its livery—its official paint job and insignia. The X-59 has sported a Freedom 250 logo on its engine since its second flight, and it will continue showing off the new detail with every upcoming test flight.</p>
+                <span class="text-caption-credit">NASA/Carla Thomas</span>
+            </figcaption>
+        </figure>
+
+    </main>
+
+
+    <section class="nasa-gallery">
+        <h2 class="gallery-title">More Topics from NASA</h2>
+        
+        <div class="grid-container">
+<!-- Card 1 -->
+            <div class="topic-card">
+                <img src="./assets/PIA17790_orig.webp" alt="Missions" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Missions</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="topic-card">
+                <img src="./assets/55114649503-06b807462e-o.webp" alt="Humans in Space" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Humans In Space</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="topic-card">
+                <img src="./assets/25382-pia24173-1600.webp" alt="Earth" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Earth</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="topic-card">
+                <img src="./assets/1-mars-nasa-gov-jpg.webp" alt="Solar System" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Our Solar System</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 5 (From second image) -->
+            <div class="topic-card">
+                <img src="./assets/webb-tarantula-neb.webp" alt="Universe" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Universe</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="topic-card">
+                <img src="./assets/roman-option-3.webp" alt="Science Missions" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Science Missions</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="topic-card">
+                <img src="./assets/full-res-for-display.webp" alt="Aeronautics" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Aeronautics</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+
+            <!-- Card 8 -->
+            <div class="topic-card">
+                <img src="./assets/55228089453-c0d41d11a7-o.webp" alt="Technology" class="card-img">
+                <div class="card-text-overlay">
+                    <span class="card-text">Technology</span>
+                    <div class="red-arrow">→</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
